@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        .header
+        {
+            height: 1000px;
+            width: 100%;
+            background: linear-gradient(45deg,rgb(199, 233, 216),rgba(17,17,17,0.2),rgba(28,8,255,0.8)),url(background\ imagev2.jpeg);
+            background-size: cover;
+        }
+        .left
+        {
+            height: 100px;
+            width: 100px;
+        }
+        .left img
+        {
+            margin: 200px;
+            height: 200px;
+            width:200px ;
+            margin-top: 200px;
+        }
+        .i 
+        {
+            background-color: aqua;
+            padding: 10px;
+            color: aquamarine;
+            border-radius: 50%;
+        }
+        .right
+        {
+            height: 200px;
+            width: 150px;
+            padding-left: 430px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="dummy image.jfif"></div>
+            <div class="right">
+                <form method="post name="Register">
+                    <table border="1" align="center">
+                        <h1 align="center">Register</h1>
+                        <hr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-signature"></i>NAME</td>
+                            <td><input type="text"placeholder="enter the name" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-envelopes-bulk"></i>EMAIL</td>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-lock"></i>PASSWORD</td>
+                            <td><input type="password" name="password"></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-book-user"></i>BIO</td>
+                         <td><textarea name="bio"  cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                        <td><i class="fa-solid fa-image"></i>PHOTO</td>
+                        <td><input type="file" name="photos"></td>
+                        </tr>
+                        <tr>
+                        <td><i class="fa-solid fa-mars-double"></i>GENDER</td>
+                        <td><input type="radio" name="gender" value="male">male
+                            <input type="radio" name="gender" value="female">female
+                            <input type="radio" name="gender" value="other">other
+                        </td>
+                        </tr>
+                        <tr>
+                        <td><i class="fa-solid fa-language"></i>LANGUAGE</td>
+                        <td><input type="checkbox" name="lan" value="english">english
+                            <input type="checkbox" name="lan" value="hindi">hindi
+                            <input type="checkbox" name="lan" value="gujrati">gujrati
+                        </td>
+                        </tr>
+                        <tr>
+                        <td><i class="fa-solid fa-globe"></i>COUNTRY</td>
+                        <td><select name="country">
+                              <option value="india">india</option>
+                              <option value="dubai">dubai</option>
+                              <option value="USA">USA</option>
+                        </select></td>
+                        </tr>
+                        <tr>
+                        <td align="center" colspan="2"><input type="submit" name="submit" value="Register">
+                                           <input type="reset" name="reset" value="reset">
+                        </td>
+                        </tr>                       
+                </table>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
